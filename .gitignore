@@ -1,6 +1,8 @@
 
 # .gitignore
 
+.DS_Store
+
 # Hidden Vagrant-directory
 .vagrant
 
