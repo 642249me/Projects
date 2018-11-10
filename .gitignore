@@ -1,0 +1,24 @@
+
+# .gitignore
+
+# Hidden Vagrant-directory
+.vagrant
+
+# Python development
+.ropeproject
+
+# Backup files (e.g. Vim, Gedit, etc.)
+*~
+
+# Compiled Python
+*.pyc
+
+# Vagrant base boxes
+*.box
+
+# Directories containing roles imported from Ansible Galaxy
+# (user.role notation)
+ansible/roles/*.*
+
+# Ansible Retry-files
+*.retry
